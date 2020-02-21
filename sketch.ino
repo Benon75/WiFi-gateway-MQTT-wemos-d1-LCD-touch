@@ -112,9 +112,9 @@ void reconnect() {
       Serial.println("connected");
       // lista tematów do subskrybcji
           client.subscribe("your topic....";");
-          .
-          . 
-          .
+          //.
+          //. 
+          //.
           client.subscribe("your topic....";
     } else {
       Serial.print("failed, rc=");
@@ -124,7 +124,7 @@ void reconnect() {
       delay(5000);
     }
   }
-} //end reconnect() ========================================
+} 
 
 
 void setup(void) { 
@@ -250,8 +250,6 @@ if (ts.touched()) {
       delay(300);
       tft.drawRoundRect( button8_x+2, button8_y-4, 116,  80, 5, ILI9341_BLACK);
     }} // END button8
-      
-
   } 
 }  
 
